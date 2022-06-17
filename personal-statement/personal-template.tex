@@ -1,0 +1,57 @@
+\documentclass[letterpaper, 12pt]{article}
+
+% Modify this for every university!
+\def\name{FirstName~LastName}
+\def\university{Dream University}
+\def\program{dream program}
+
+\usepackage[
+  top = 1in,
+  bottom = 1in,
+  left = 1in,
+  right = 1in,
+]{geometry}
+
+% try not to use hyperlinks -- they may be the source of technical difficulties
+% I used hyperref for the metadata capabilities
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+  pdfauthor = {\name},
+  pdftitle = {\name: Personal Statement},
+  pdfsubject = {Personal Statement}
+}
+
+% use at least 1.5 spacing for better readibility
+\usepackage{setspace}
+\onehalfspacing
+
+% header and footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{{\small\name}}
+\fancyfoot[R]{\small\thepage}
+\fancyhead[R]{\small Personal Statement}
+\renewcommand{\headrulewidth}{0pt}
+% It may be useful when writing/sharing your SOP to have the date at which you
+% last updated your SOP. That way, when others give feedback, you know which
+% version of the SOP they have comments on. Uncomment the following line to
+% enable something like this.
+% 
+% \fancyhead[C]{{\small\itshape last updated:} {\small\today}}
+
+% use indentation for paragraph spacing
+\usepackage{indentfirst}
+\setlength\parindent{2em}
+
+% dummy text
+\usepackage{lipsum} 
+
+% TODO:
+% Have a dedicated space to write todo's, reminders, etc.
+
+\begin{document}
+
+\lipsum
+
+\end{document}
