@@ -4,7 +4,7 @@
 
 Keep track of the different parts of your application with this checklist.
 
-- [ ] status: not started, started not finished, finished
+- [ ] status: not started, started not finished, finished, accepted/waitlisted/shortlisted/rejected
 - [ ] fee waiver: not requested yet, requested, need to pay $XXX
 - [ ] gre scores: not sent yet, sent, optional (ets code)
 - [ ] recommendations: not requested yet, requested (max number)
